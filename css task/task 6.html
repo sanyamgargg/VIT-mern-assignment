@@ -1,0 +1,54 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="flex items-center justify-center min-h-screen bg-gray-100">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
+   <div class="flex justify-end">
+    <i class="fas fa-times cursor-pointer">
+    </i>
+   </div>
+   <div class="flex justify-center mb-4">
+    <img alt="girl icon" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/J_Lh3-As9jfAvtHPRHs4v8bh8APUyR7ND4RM0GyJM1k.jpg" width="100"/>
+   </div>
+   <form>
+    <div class="mb-4">
+     <label class="block text-gray-700">
+      Username
+     </label>
+     <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Enter Username" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-gray-700">
+      Password
+     </label>
+     <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Enter Password" type="password"/>
+    </div>
+    <div class="mb-4">
+     <button class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600" type="submit">
+      Login
+     </button>
+    </div>
+    <div class="flex items-center mb-4">
+     <input class="mr-2" id="remember" type="checkbox"/>
+     <label class="text-gray-700" for="remember">
+      Remember me
+     </label>
+    </div>
+    <div class="flex justify-between items-center">
+     <button class="bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600" type="button">
+      Cancel
+     </button>
+     <a class="text-gray-700" href="#">
+      Forgot
+      <span class="text-blue-500">
+       password?
+      </span>
+     </a>
+    </div>
+   </form>
+  </div>
+ </body>
+</html>

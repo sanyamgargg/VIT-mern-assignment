@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+    .data-table {
+        width: 800px;
+        border-collapse: separate;
+        border-spacing: 2px;
+        margin-bottom: 40px;
+    }
+
+    .data-table th, .data-table td {
+        padding: 10px;
+        background-color: #B2DFDB;
+        border-radius: 10px;
+    }
+
+    .data-table th {
+        font-weight: bold;
+    }
+
+    
+    .shape-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    
+    .shape {
+        border: 2px solid #90EE90;
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .shape:nth-child(1) {
+        border-radius: 10px;
+    }
+
+    .shape:nth-child(2) {
+        border-radius: 8px;
+    }
+
+    .shape:nth-child(3) {
+        border-radius: 15px;
+    }
+
+    .shape:nth-child(4) {
+        border-radius: 12px;
+    }
+
+    .shape:nth-child(5) {
+        border-radius: 6px;
+    }
+
+    .shape:nth-child(6) {
+        border-radius: 15px;
+    }
+
+    .shape:nth-child(7) {
+        border-radius: 50%;  
+    }
+
+    .shape:nth-child(8) {
+        border-radius: 8px;
+    }
+
+    .shape:nth-child(9) {
+        border-radius: 12px;
+    }
+</style>
+</head>
+<body>
+    <!-- Table Structure -->
+    <table class="data-table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    
+    <div class="shape-grid">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+</body>
+</html>

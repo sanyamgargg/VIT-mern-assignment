@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        font-family: Times New Roman, serif;
+    }
+
+    .vertical-nav {
+        width: 200px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    .vertical-nav h2 {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .vertical-nav .header {
+        background-color: orange;
+        color: white;
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .vertical-nav .menu {
+        background-color: lightblue;
+        padding: 10px 0;
+    }
+
+    .vertical-nav a {
+        display: block;
+        color: blue;
+        text-decoration: none;
+        padding: 8px 15px;
+        font-size: 20px;
+    }
+
+    .horizontal-nav {
+        width: 600px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    .horizontal-nav h2 {
+        margin: 0 0 10px 0;
+    }
+
+    .horizontal-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .horizontal-menu li {
+        border-right: 1px solid black;
+    }
+
+    .horizontal-menu li:first-child {
+        background-color: gray;
+    }
+
+    .horizontal-menu li:last-child {
+        border-right: none;
+    }
+
+    .horizontal-menu a {
+        display: block;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .horizontal-menu li:first-child a {
+        color: #ffffff60;
+    }
+
+    .horizontal-menu li:not(:first-child) a {
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <div class="vertical-nav">
+        <div class="header">Home</div>
+        <div class="menu">
+            <a href="#">Java</a>
+            <a href="#">CSS</a>
+            <a href="#">HTML</a>
+            <a href="#">Bootstrap</a>
+        </div>
+    </div>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontal-nav">
+        <ul class="horizontal-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+        </ul>
+    </div>
+</body>
+</html>

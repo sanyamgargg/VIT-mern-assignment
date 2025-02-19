@@ -1,0 +1,55 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white flex items-center justify-center min-h-screen">
+    <div class="bg-[#8B1C3C] p-8 rounded-lg shadow-lg w-full max-w-md">
+        <form>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="name">Name:</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="text" id="name" placeholder="your name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="email">Email:</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="email" id="email" placeholder="your email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="password">Password:</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="password" id="password" placeholder="your password">
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="phone">Phone Number:</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="tel" id="phone" placeholder="your phone number">
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2">Gender:</label>
+                <div class="flex items-center">
+                    <input class="mr-2" type="radio" id="male" name="gender" value="male">
+                    <label class="text-white mr-4" for="male">Male</label>
+                    <input class="mr-2" type="radio" id="female" name="gender" value="female">
+                    <label class="text-white mr-4" for="female">Female</label>
+                    <input class="mr-2" type="radio" id="other" name="gender" value="other">
+                    <label class="text-white" for="other">Other</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="language">Language:</label>
+                <select class="w-full p-2 border border-gray-300 rounded" id="language">
+                    <option>Select language</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="zipcode">Zip Code:</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="text" id="zipcode" placeholder="your zip code">
+            </div>
+            <div class="mb-4">
+                <label class="block text-white mb-2" for="about">About:</label>
+                <textarea class="w-full p-2 border border-gray-300 rounded" id="about" placeholder="Write about yourself..."></textarea>
+            </div>
+            <div class="text-center">
+                <button class="bg-white text-[#8B1C3C] font-bold py-2 px-4 rounded" type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
